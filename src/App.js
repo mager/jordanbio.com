@@ -7,12 +7,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>jordanbio.com is coming soon</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p className="App-intro">In the meantime, buy the book:</p>
+            <a href="https://www.amazon.com/Michael-Jordan-Life-Roland-Lazenby/dp/031619476X"><img src="https://images-na.ssl-images-amazon.com/images/I/51q6AsIhA1L._SX323_BO1,204,203,200_.jpg" /></a>
       </div>
     );
   }
